@@ -1,0 +1,3 @@
+FROM almalinux
+RUN yum install httpd -y
+RUN echo "Welcome to the first container web page" > /var/www/html/index.html
